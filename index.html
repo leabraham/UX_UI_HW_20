@@ -4,14 +4,10 @@
         <title>Portfolio Homepage</title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
         <script src="js/index.js"></script>
     </head>
     <body>
@@ -23,83 +19,79 @@
             <div class="collapse justify-content-end navbar-collapse" id="collapseTarget">
                 <ul id="main-nav" class="navbar-nav">
                     <li class="about nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
-                    <li class="work nav-item"><a class="nav-link" href="#skills">SKILLS</a></li>
-                    <li class="skills nav-item"><a class="nav-link" href="#work">WORK</a></li>
-                    <li class="contact nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                    <li class="work nav-item"><a class="nav-link" href="#research">RESEARCH</a></li>
+                    <li class="skills nav-item"><a class="nav-link" href="#iteration">ITERATION</a></li>
+                    <li class="contact nav-item"><a class="nav-link" href="#prototype">PROTOTYPE</a></li>
                 </ul>
             </div>
         </nav>
 
-        <section id="about" class="container">
-                <div class="intro text-center">
-                    <h1>Hi, I'm Leanna Abraham</h1>
-                    <h4>An aspiring UX/UI Designer and Researcher connecting 
-                    people with accessible design</h4>
-                    <p>I find human interaction fascinating and seek to bridge 
-                    the gap between accessibility and technology with user 
-                    friendly designs and experiences.</p>
-                </div>
-                <div class="intro-img"><img src="images/moi.png" class="img-fluid mx-auto d-block"></div>
-                <button id="resume">DOWNLOAD RESUME</button>
+        <section id="about" class="intro-jumbo jumbotron jumbotron-fluid bg-transparent">
+            <div class="intro container">
+                <h1 class="title">Mental Health America of Georgia Website Redesign</h1>
+                <img src="images/mha.PNG" class="intro-img img-fluid mx-auto d-block">
+                <p>MHA is a mental health non-profit with the goal of 
+                  providing education, resources, and assistance to Georgian's.</p>
+                <p>The team redesigned the existing website's landing page for desktop 
+                   and mobile and re-structured and organized the navigation as well.</p>
+                <p>Within the team, I was the Project Manager ensuring everything 
+                    needing to be done was done in a timely manner. I organized and defined tasks each 
+                    person needed to conduct and came up with a revamped information architecture for easier 
+                    navigation. I also conducted usability tests, user interviews, and user research.
+                </p>
+            </div>
         </section>
 
-        <section id="work" class="myWork container">
-            <h2 class="text-center projects">My Work</h2>
+        <section id="research">
+            <div class="container">
+                <h1 class="title">Heuristic Evaluation</h1>
+                <img src="images/heuristic.PNG" class="img-fluid mx-auto d-block">
+                <p>During user research, we conducted heuristic evaluations of the existing website through which we  gathered insight into how we could update the site. 
+                </p>
+                <h4>Problem Statement</h4>
+                <p>It was observed that the user interaction of the website could hinder people from accessing relevant information, seeking the help they need, and getting connected with resources. The website did not have a search bar as well.</p>
+                <h4>Solution</h4>
+                <p>A simpler and consistent design across devices as well as simplified navigation to ensure people can get the mental health assistance they need.
+                </p>
+            </div>
+        </section>
+
+        <section id="iteration">
+            <div class="container">
+                <h1 class="title">Site Map</h1>
+                <img src="images/sitemap.PNG" class="img-fluid mx-auto d-block">
+                <p>From user research, user interviews, and heuristic evaluations, a site map was constructed to define the flow of navigation throughout the website.
+                </p>
+                <h1 class="title">Style Tile</h1>
+                <img src="images/ui-tile.PNG" class="img-fluid mx-auto d-block">
+                <p>We wanted the website to be simple and easy to use. Existing colors were kept as they brought a sense of cheer and calm and are part of the state color's of Georgia. Button states were kept simple so as not to distract from page content.
+                </p>
+            </div>
+        </section>
+
+        <section id="prototype" class="myWork container">
+            <h1 class="text-center projects">Mockup</h2>
                 <div class="row projects">
                     <div class="col-sm">
                         <div class="card text-center mx-auto" style="width: 18rem;">
-                            <img src="images/dhs.PNG" class="card-img-top img-fluid" alt="DHS Website Redesign">
+                            <img src="images/desktop.PNG" class="card-img-top img-fluid" alt="DHS Website Redesign">
                             <div class="card-body">
-                            <h5 class="card-title">DHS Re-design</h5>
-                            <p class="card-text">The current Department of Homeland Security website had accessibility issues due to the design. 
-                                I came up with a responsive website redesign to make the site user friendly.</p>
-                            <a href="#" class="btn btn-primary">View Project</a>
+                            <h5 class="card-title">Desktop Prototype</h5>
+                            <a href="#" class="btn btn-primary">View Prototype</a>
                             </div>
                         </div>
                     </div>
 
                   <div class="col-sm">
                     <div class="card text-center mx-auto" style="width: 18rem;">
-                        <img src="images/ga-covid-crusher.png" class="card-img-top img-fluid mx-auto" style="width: 52%" alt="GA Covid Crusher App">
+                        <img src="images/mobile.PNG" class="card-img-top img-fluid mx-auto" style="width: 52%" alt="GA Covid Crusher App">
                         <div class="card-body">
-                        <h5 class="card-title">Georgia Covid Crushers</h5>
-                        <p class="card-text">Our team saw Georgia was lacking in a app to help sign up and receive notifications on vaccines for Covid-19.
-                            We created a potential prototype to aid Georgians in getting a vaccine.</p>
-                        <a href="#" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm">
-                    <div class="card text-center mx-auto" style="width: 18rem; height: 31.5rem;">
-                        <img src="images/mha.PNG" class="card-img-top img-fluid" alt="MHA Website Redesign">
-                        <div class="card-body" style="margin-top: 3rem;">
-                        <h5 class="card-title">MHA</h5>
-                        <p class="card-text">During the pandemic, mental health for many was at an all time low.
-                            Our team analyzed Mental Health America of Georgia’s website and came up with a better, accessible design.</p>
-                        <a href="#" class="btn btn-primary">View Project</a>
+                        <h5 class="card-title">Mobile Prototype</h5>
+                        <a href="#" class="btn btn-primary">View Prototype</a>
                         </div>
                     </div>
                   </div>
                 </div>
-        </section>
-
-        <section id="skills" class="myskills container tools-skills">
-            <div>
-                <h2 class="text-center projects">Skills & Tools</h2>
-                <ul class="list-group list-group-flush w-50 mx-auto">
-                    <li class="list-group-item list-group-item-action text-center bg-transparent">User Testing, User Analysis</li>
-                    <li class="list-group-item list-group-item-action text-center bg-transparent">Wireframe & Prototyping</li>
-                    <li class="list-group-item list-group-item-action text-center bg-transparent">Frontend Dev: HTML, CSS, JavaScript</li>
-                    <li class="list-group-item list-group-item-action text-center bg-transparent">User Personas, Heuristic Evaluations</li>
-                    <li class="list-group-item list-group-item-action text-center bg-transparent">Quantitative & Qualitative User Research</li>
-                </ul>
-            </div>
-            <div class="btn-group tools">
-                <button class="btn tool-img"><img src="images/figma.png" class="img-fluid"></button>
-                <button class="btn tool-img"><img src="images/xd.png" class="img-fluid"></button>
-                <button class="btn tool-img"><img src="images/miro.png" class="img-fluid"></button>
-              </div>
         </section>
 
         <footer id="contact">
